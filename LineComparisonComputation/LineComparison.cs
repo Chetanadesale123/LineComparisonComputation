@@ -9,7 +9,7 @@ namespace LineComparisonComputation
     public class LineComparison
     {
         int x1, x2, y1, y2;
-         public LineComparison(int x1, int x2, int y1, int y2)
+        public LineComparison(int x1, int x2, int y1, int y2)
         {
             this.x1 = x1;
             this.x2 = x2;
@@ -18,10 +18,10 @@ namespace LineComparisonComputation
         }
         public double CalculateLength()
         {
-            double result = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2); 
-             return result;
+            double result = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
+            return result;
 
-            
+
         }
 
     }
